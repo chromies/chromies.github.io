@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Заголовок</title>
+	<meta name="description" content="Описание">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
+</head>
+
+<body>
+	<!-- BEGIN header -->
+	<header class="header">
+		<div class="top-panel">
+			<div class="container">
+				<div class="row">
+					<div class="resp-btn">
+						<div class="resp-strip"></div>
+					</div>
+					<div class="logo">
+						<a href="#">Rustires.ru</a>
+					</div>
+					<div class="phone">
+						<div class="phone-row">
+							<div class="phone-number">+7 (495) 407-76-57</div>
+							<div class="phone-time">
+								<span>09:00</span>
+								<span>19:00</span>
+							</div>
+						</div>
+					</div>
+					<div class="call-me">
+						<a href="#"><i class="icon icon-call"></i>Перезвоните мне</a>
+					</div>
+					<div class="cart">
+						<a href="#"><i class="icon icon-cart"></i>Корзина</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="container">
+				<div class="row-md">
+					<ul class="nav-list row-md">
+						<li>
+							<a class="nav-link dropable" href="#">Шины</a>
+							<ul class="subnav">
+								<li>
+									<div class="container">
+										<div class="row">
+											<div class="subnav-item">
+												<span class="subnav-title">Быстрый подбор</span>
+												<div class="subnav-choice">
+													<i class="icon icon-tire"></i>
+													<a href="#">По размеру</a>
+												</div>
+												<div class="subnav-choice">
+													<i class="icon icon-car"></i>
+													<a href="#">По автомобилю</a>
+												</div>
+											</div>
+											<div class="subnav-item">
+												<span class="subnav-title">Категории шин</span>
+												<ul class="subnav-list">
+													<li>
+														<a class="subnav-link" href="#">Зимние шины</a>
+													</li>
+													<li>
+														<a class="subnav-link" href="#">Летние шины</a>
+													</li>
+													<li>
+														<a class="subnav-link" href="#">Недорогие шины</a>
+													</li>
+													<li>
+														<a class="subnav-link" href="#">Шипованные шины</a>
+													</li>
+													<li>
+														<a class="subnav-link" href="#">
+														Шины липучка
+													</a>
+													</li>
+													<li>
+														<a class="subnav-link" href="#">
+														Шины RunFlat
+													</a>
+													</li>
+												</ul>
+											</div>
+											<div class="subnav-item">
+												<span class="subnav-title">Популярные бренды</span>
+												<ul class="subnav-list">
+													<li>
+														<a href="#" class="subnav-link">Gripmax</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Rotalla</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Kingtires</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Pirelli</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Bridgestone</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Dunlop</a>
+													</li>
+												</ul>
+											</div>
+											<div class="subnav-item">
+												<span class="subnav-title">Популярные типоразмеры</span>
+												<ul class="subnav-list">
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+													<li><a href="#">235/45 R17</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="nav-link dropable" href="#">Диски</a>
+							<ul class="subnav">
+								<li>
+									<div class="container">
+										<div class="row">
+											<div class="subnav-item">
+												<span class="subnav-title">Быстрый подбор</span>
+												<div class="subnav-choice">
+													<i class="icon icon-tire"></i>
+													<a href="#">По размеру</a>
+												</div>
+												<div class="subnav-choice">
+													<i class="icon icon-car"></i>
+													<a href="#">По автомобилю</a>
+												</div>
+											</div>
+											<div class="subnav-item">
+												<span class="subnav-title">Популярные бренды</span>
+												<ul class="subnav-list">
+													<li>
+														<a href="#" class="subnav-link">Brend</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Brend</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Brend</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Brend</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Brend</a>
+													</li>
+													<li>
+														<a href="#" class="subnav-link">Brend</a>
+													</li>
+												</ul>
+											</div>
+											<div class="subnav-item">
+												<span class="subnav-title">Популярные типоразмеры</span>
+												<ul class="subnav-list">
+													<li><a href="#">8Jx18 5/120 ET30</a></li>
+													<li><a href="#">8Jx18 5/120 ET30</a></li>
+													<li><a href="#">8Jx18 5/120 ET30</a></li>
+													<li><a href="#">8Jx18 5/120 ET30</a></li>
+													<li><a href="#">8Jx18 5/120 ET30</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li><a class="nav-link" href="#">Магазины</a></li>
+						<li><a class="nav-link" href="#">Доставка и услуги</a></li>
+						<li><a class="nav-link" href="#">Контакты</a></li>
+						<li><a class="nav-link" href="#">Недорогие шины</a></li>
+						<li class="site-number"><span>№12345</span></li>
+					</ul>
+					<div class="search">
+						<button class="btn-search dropable">
+							<i class="icon icon-search"></i>
+						</button>
+						<div class="search-body">
+							<div class="container">
+								<form action="get" class="search-form row">
+									<input type="text" class="search-input" placeholder="Поиск по каталогу товаров" required>
+									<input class="btn-red" type="submit" value="Найти">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- END header -->
+	<!-- BEGIN main -->
+	<div class="main">
+		<div class="container">
+			<!-- BEGIN breadcrumb -->
+			<div class="breadcrumb">
+				<ul class="breadcrumb-list">
+					<li class="active"><a href="#">Главная</a></li>
+					<li><a href="#">Доставка и услуги</a></li>
+				</ul>
+			</div>
+			<!-- END breadcrumb -->
+			<!-- BEGIN top select -->
+			<div class="top-select">
+				<div class="top-description row">
+					<div class="description-img">
+						<img src="img/car.png" alt="car">
+					</div>
+					<div class="description-txt">
+						<h1>Летние премиум шины</h1>
+						<p>Премиум шины на сайте RusTires очень нуждаются в сеошнике. Они мечтают оказаться в топе, потому что действительно заслуживают это и они очень надеятся, как и их создатели, что все будет в итоге хорошо. Всем удачи в этом мире.</p>
+						<div class="description-links">
+							<a href="">Все<span class="md-visible"> премиум шины</span></a>
+							<a href="">Зимние<span class="md-visible"> премиум шины</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="top-filter">
+					<div class="top-control row">
+						<a href="#diameter" class="active">
+							<i class="icon icon-one"></i>
+							Выберите диаметр
+							<span class="line"></span>
+						</a>
+						<a href="#width">
+							<i class="icon icon-two"></i>
+							Выберите ширину
+							<span class="line"></span>
+						</a>
+						<a href="#profil">
+							<i class="icon icon-three"></i>
+							Выберите профиль
+						</a>
+					</div>
+					<div class="top-marks" id="diameter">
+						<span>R13</span>
+						<span>R14</span>
+						<span>R15</span>
+						<span>R16</span>
+						<span>R17</span>
+					</div>
+					<div id="width" class="top-marks hidden">
+						<span>100</span>
+						<span>200</span>
+						<span>300</span>
+						<span>400</span>
+						<span>500</span>
+					</div>
+					<div id="profil" class="top-marks hidden">
+						<span>100</span>
+						<span>200</span>
+						<span>300</span>
+						<span>400</span>
+						<span>500</span>
+					</div>
+				</div>
+			</div>
+			<!-- END top select -->
+			<div class="select row-lg">
+				<!-- BEGIN aside -->
+				<div class="aside">
+					<div class="aside-title">Подбор Шин</div>
+					<div class="filter filter_aside">
+						<form action="get" id="aside-filter" class="filter-form">
+							<div class="filter-set">
+								<div class="filter-control row">
+									<a href="#sizes" class="col-half control-selected">
+							Подбор по размеру
+								</a>
+									<a href="#cars" class="col-half">
+							Подбор по автомобилю
+								</a>
+								</div>
+								<div id="sizes" class="filter-block row-sm no-row-lg">
+									<div class="filter-wrap col-one-three">
+										<input type="text" name="diameter" class="filter-input searchable" placeholder="Диаметр" autocomplete="off">
+										<div class="filter-drop">
+											<ul class="drop-list">
+												<li>diameter</li>
+												<li>diameter</li>
+												<li>diameter</li>
+												<li>diameter</li>
+												<li>diameter</li>
+											</ul>
+										</div>
+									</div>
+									<div class="filter-wrap col-one-three">
+										<input type="text" name="width" class="filter-input searchable" placeholder="Ширина" autocomplete="off">
+										<div class="filter-drop">
+											<ul class="drop-list">
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+											</ul>
+										</div>
+									</div>
+									<div class="filter-wrap col-one-three">
+										<input type="text" name="profil" class="filter-input searchable" placeholder="Профиль" autocomplete="off">
+										<div class="filter-drop">
+											<ul class="drop-list">
+												<li>profil</li>
+												<li>profil</li>
+												<li>profil</li>
+												<li>profil</li>
+												<li>profil</li>
+												<li>profil</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div id="cars" class="filter-block row-sm no-row-lg" style="display:none">
+									<div class="filter-wrap col-one-three">
+										<input type="text" name="mark" class="filter-input searchable" placeholder="Диаметр" autocomplete="off">
+										<div class="filter-drop">
+											<ul class="drop-list">
+												<li>diameter</li>
+												<li>diameter</li>
+												<li>diameter</li>
+												<li>diameter</li>
+												<li>diameter</li>
+											</ul>
+										</div>
+									</div>
+									<div class="filter-wrap col-one-three">
+										<input type="text" name="model" class="filter-input searchable" placeholder="Ширина" autocomplete="off">
+										<div class="filter-drop">
+											<ul class="drop-list">
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+												<li>width</li>
+											</ul>
+										</div>
+									</div>
+									<div class="filter-wrap col-one-three">
+										<input type="text" name="dodman" class="filter-input searchable" placeholder="Профиль" autocomplete="off">
+										<div class="filter-drop">
+											<ul class="drop-list">
+												<li>profil</li>
+												<li>profil</li>
+												<li>profil</li>
+												<li>profil</li>
+												<li>profil</li>
+												<li>profil</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="filter-block_accordion">
+								<span class="filter-title">Сезонность</span>
+								<div class="checks checks_aside">
+									<input type="checkbox" name="summer" id="summer" value="yes">
+									<label for="summer"><i class="icon-sun"></i>Летние</label>
+									<input type="checkbox" name="total" id="seasons" value="yes">
+									<label for="seasons"><i class="icon-group"></i>Всесезонные</label>
+									<input type="checkbox" name="studded" id="studded" value="yes">
+									<label for="studded"><i class="icon-snowflake"></i>Зимние, Шипы</label>
+									<input type="checkbox" name="nostudded" id="nostudded" value="yes">
+									<label for="nostudded"><i class="icon-snowflake"></i>Зимние, Не шипы</label>
+									<input type="checkbox" name="total" id="total" value="yes">
+									<label for="total"><i class="icon-snowflake"></i>Зимние, Все</label>
+								</div>
+							</div>
+							<div class="filter-block_accordion">
+								<span class="filter-title">Бренд</span>
+								<div class="checks checks_aside">
+									<input type="checkbox" name="brand1" id="brand1" value="yes">
+									<label for="brand1">Auplus</label>
+									<input type="checkbox" name="brand2" id="brand2" value="yes">
+									<label for="brand2">Michelin</label>
+									<input type="checkbox" name="brand3" id="brand3" value="yes">
+									<label for="brand3">Pirelli</label>
+									<input type="checkbox" name="brand4" id="brand4" value="yes">
+									<label for="brand4">Gripmax</label>
+									<input type="checkbox" name="brand5" id="brand5" value="yes" disabled>
+									<label for="brand5">Unactive Brand</label>
+								</div>
+							</div>
+							<div class="filter-block_accordion">
+								<span class="filter-title">Класс Шин</span>
+								<div class="checks checks_aside">
+									<input type="checkbox" name="class1" id="class1" value="yes">
+									<label for="class1">Комфортные шины</label>
+									<input type="checkbox" name="total2" id="class2" value="yes">
+									<label for="class2">Премиум шины</label>
+									<input type="checkbox" name="class3" id="class3" value="yes">
+									<label for="class3">Китайские шины</label>
+									<input type="checkbox" name="class4" id="class4" value="yes">
+									<label for="class4">Бюджетные шины</label>
+								</div>
+							</div>
+							<div class="filter-block_accordion">
+								<span class="filter-title">Технология RunFlat</span>
+								<div class="checks checks_aside">
+									<input type="checkbox" class="checks-runflat" name="runflet" id="runflat" value="runflat">
+									<label for="runflat">Только RunFlat</label>
+									<input type="checkbox" class="checks-runflat" name="no-runflat" id="no-runflat" value="no-runflat">
+									<label for="no-runflat">Только без RunFlat</label>
+								</div>
+							</div>
+							<div class="filter-block_accordion">
+								<span class="filter-title">Цена</span>
+								<div class="aside-price">
+									<div id="price-slider"></div>
+									<div class="row">
+										<div class="price-input">
+											<span>от</span>
+											<input type="text" name="price-from" id="price-from" autocomplete="off">
+										</div>
+										<div class="price-input">
+											<span>до</span>
+											<input type="text" name="price-to" id="price-to" autocomplete="off">
+										</div>
+									</div>
+								</div>
+							</div>
+							<input type="hidden" name="sort" id="sort-input">
+							<div class="aside-btn">
+								<input class="btn-red" type="submit" value="Подобрать">
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- END aside -->
+				<!-- BEGIN content -->
+				<div class="content">
+					<div class="sorting-row">
+						<div class="sorting">
+							<span class="sorting-field">По умолчанию</span>
+							<ul class="sorting-list">
+								<li id="rating">По рейтингу</li>
+								<li id="price">По убыванию</li>
+								<li id="price-reverse">По возрастанию</li>
+							</ul>
+						</div>
+						<div class="resp-filter">Фильтры</div>
+					</div>
+					<div class="content-tags">
+						<span>Летние<i class="icon-cross">&#10006;</i></span>
+						<span>Премиум<i class="icon-cross">&#10006;</i></span>
+					</div>
+					<div id="sort-panel" class="content-cards">
+						<div class="card row" data-price="14.52" data-rating="4.9">
+							<div class="card-icons">
+								<span class="rating-number">4.9</span>
+								<span class="icon icon-sun"></span>
+								<span class="icon icon-snowflake"></span>
+								<span class="icon-studded">ш</span>
+								<span class="icon-runflat">RF</span>
+								<span class="icon icon-thumb"></span>
+							</div>
+							<div class="card-img">
+								<img src="img/product.jpg" alt="product">
+								<div class="card-stickers">
+									<span class="sticker-hit">Хит продаж</span>
+									<span class="sticker-new">Новинка</span>
+								</div>
+							</div>
+							<div class="card-text">
+								<h2><span>Pirelli</span> SottoZero Winter Force 295/45 R18</h2>
+								<ul>
+									<li>Размер: <span>295/45 R19</span></li>
+									<li>Индексы: <span>96 W</span></li>
+									<li>Дополнительно: <span>Не шипы, Runflat</span></li>
+									<li>Доставка: <span>Завтра, 450 &#8381;</span></li>
+									<li>Самовывоз: <span>Сегодня</span></li>
+								</ul>
+							</div>
+							<div class="card-order">
+								<form action="get" class="order-form">
+									<input type="hidden" name="id" value="2121212">
+									<div class="order-price">14,520</div>
+									<div class="order-quantity">
+										<span class="order-minus">&#8212;</span>
+										<input type="text" name="quantity" value="1">
+										<span class="order-plus"><i class="icon icon-plus"></i></span>
+									</div>
+									<div class="order-count">1: 14,520</div>
+									<button type="submit" class="order-btn btn-red">В корзину<i class="icon icon-cart"></i></button>
+								</form>
+							</div>
+						</div>
+						<div class="card row" data-price="18.52" data-rating="4.2">
+							<div class="card-icons">
+								<span class="rating-number">4.2</span>
+								<span class="icon icon-sun"></span>
+								<span class="icon icon-snowflake"></span>
+								<span class="icon-studded">ш</span>
+								<span class="icon-runflat">RF</span>
+								<span class="icon icon-thumb"></span>
+							</div>
+							<div class="card-img">
+								<img src="img/product.jpg" alt="product">
+							</div>
+							<div class="card-text">
+								<h2><span>Pirelli</span> SottoZero Winter Force 295/45 R18</h2>
+								<ul>
+									<li>Размер: <span>295/45 R19</span></li>
+									<li>Индексы: <span>96 W</span></li>
+									<li>Дополнительно: <span>Не шипы, Runflat</span></li>
+									<li>Доставка: <span>Завтра, 450 &#8381;</span></li>
+									<li>Самовывоз: <span>Сегодня</span></li>
+								</ul>
+							</div>
+							<div class="card-order">
+								<form action="get" class="order-form">
+									<input type="hidden" name="id" value="2121212">
+									<div class="order-price">18,520</div>
+									<div class="order-quantity">
+										<span class="order-minus">&#8212;</span>
+										<input type="text" name="quantity" value="1">
+										<span class="order-plus"><i class="icon icon-plus"></i></span>
+									</div>
+									<div class="order-count">1: 18,520</div>
+									<button type="submit" class="order-btn btn-red">В корзину<i class="icon icon-cart"></i></button>
+								</form>
+							</div>
+						</div>
+						<div class="card row" data-price="19.52" data-rating="4.4">
+							<div class="card-icons">
+								<span class="rating-number">4.4</span>
+								<span class="icon icon-sun"></span>
+								<span class="icon icon-snowflake"></span>
+								<span class="icon-studded">ш</span>
+								<span class="icon-runflat">RF</span>
+								<span class="icon icon-thumb"></span>
+							</div>
+							<div class="card-img">
+								<img src="img/product.jpg" alt="product">
+							</div>
+							<div class="card-text">
+								<h2><span>Pirelli</span> SottoZero Winter Force 295/45 R18</h2>
+								<ul>
+									<li>Размер: <span>295/45 R19</span></li>
+									<li>Индексы: <span>96 W</span></li>
+									<li>Дополнительно: <span>Не шипы, Runflat</span></li>
+									<li>Доставка: <span>Завтра, 450 &#8381;</span></li>
+									<li>Самовывоз: <span>Сегодня</span></li>
+								</ul>
+							</div>
+							<div class="card-order">
+								<form action="get" class="order-form">
+									<input type="hidden" name="id" value="2121212">
+									<div class="order-price">19,520</div>
+									<div class="order-quantity">
+										<span class="order-minus">&#8212;</span>
+										<input type="text" name="quantity" value="1">
+										<span class="order-plus"><i class="icon icon-plus"></i></span>
+									</div>
+									<div class="order-count">1: 17,520</div>
+									<button type="submit" class="order-btn btn-red">В корзину<i class="icon icon-cart"></i></button>
+								</form>
+							</div>
+						</div>
+						<div class="card row" data-price="17.52" data-rating="3.4">
+							<div class="card-icons">
+								<span class="rating-number">3.4</span>
+								<span class="icon icon-sun"></span>
+								<span class="icon icon-snowflake"></span>
+								<span class="icon-studded">ш</span>
+								<span class="icon-runflat">RF</span>
+								<span class="icon icon-thumb"></span>
+							</div>
+							<div class="card-img">
+								<img src="img/product.jpg" alt="product">
+							</div>
+							<div class="card-text">
+								<h2><span>Pirelli</span> SottoZero Winter Force 295/45 R18</h2>
+								<ul>
+									<li>Размер: <span>295/45 R19</span></li>
+									<li>Индексы: <span>96 W</span></li>
+									<li>Дополнительно: <span>Не шипы, Runflat</span></li>
+									<li>Доставка: <span>Завтра, 450 &#8381;</span></li>
+									<li>Самовывоз: <span>Сегодня</span></li>
+								</ul>
+							</div>
+							<div class="card-order">
+								<form action="get" class="order-form">
+									<input type="hidden" name="id" value="2121212">
+									<div class="order-price">17,520</div>
+									<div class="order-quantity">
+										<span class="order-minus">&#8212;</span>
+										<input type="text" name="quantity" value="1">
+										<span class="order-plus"><i class="icon icon-plus"></i></span>
+									</div>
+									<div class="order-count">1: 17,520</div>
+									<button type="submit" class="order-btn btn-red">В корзину<i class="icon icon-cart"></i></button>
+								</form>
+							</div>
+						</div>
+						<div class="card row" data-price="15.52" data-rating="4.7">
+							<div class="card-icons">
+								<span class="rating-number">4.7</span>
+								<span class="icon icon-sun"></span>
+								<span class="icon icon-snowflake"></span>
+								<span class="icon-studded">ш</span>
+								<span class="icon-runflat">RF</span>
+								<span class="icon icon-thumb"></span>
+							</div>
+							<div class="card-img">
+								<img src="img/product.jpg" alt="product">
+							</div>
+							<div class="card-text">
+								<h2><span>Pirelli</span> SottoZero Winter Force 295/45 R18</h2>
+								<ul>
+									<li>Размер: <span>295/45 R19</span></li>
+									<li>Индексы: <span>96 W</span></li>
+									<li>Дополнительно: <span>Не шипы, Runflat</span></li>
+									<li>Доставка: <span>Завтра, 450 &#8381;</span></li>
+									<li>Самовывоз: <span>Сегодня</span></li>
+								</ul>
+							</div>
+							<div class="card-order">
+								<form action="get" class="order-form">
+									<input type="hidden" name="id" value="2121212">
+									<div class="order-price">15,520</div>
+									<div class="order-quantity">
+										<span class="order-minus">&#8212;</span>
+										<input type="text" name="quantity" value="1">
+										<span class="order-plus"><i class="icon icon-plus"></i></span>
+									</div>
+									<div class="order-count">1: 15,520</div>
+									<button type="submit" class="order-btn btn-red">В корзину<i class="icon icon-cart"></i></button>
+								</form>
+							</div>
+						</div>
+						<div class="card row" data-price="22.52" data-rating="4.1">
+							<div class="card-icons">
+								<span class="rating-number">4.1</span>
+								<span class="icon icon-sun"></span>
+								<span class="icon icon-snowflake"></span>
+								<span class="icon-studded">ш</span>
+								<span class="icon-runflat">RF</span>
+								<span class="icon icon-thumb"></span>
+							</div>
+							<div class="card-img">
+								<img src="img/product.jpg" alt="product">
+							</div>
+							<div class="card-text">
+								<h2><span>Pirelli</span> SottoZero Winter Force 295/45 R18</h2>
+								<ul>
+									<li>Размер: <span>295/45 R19</span></li>
+									<li>Индексы: <span>96 W</span></li>
+									<li>Дополнительно: <span>Не шипы, Runflat</span></li>
+									<li>Доставка: <span>Завтра, 450 &#8381;</span></li>
+									<li>Самовывоз: <span>Сегодня</span></li>
+								</ul>
+							</div>
+							<div class="card-order">
+								<form action="get" class="order-form">
+									<input type="hidden" name="id" value="2121212">
+									<div class="order-price">22,520</div>
+									<div class="order-quantity">
+										<span class="order-minus">&#8212;</span>
+										<input type="text" name="quantity" value="1">
+										<span class="order-plus"><i class="icon icon-plus"></i></span>
+									</div>
+									<div class="order-count">1: 17,520</div>
+									<button type="submit" class="order-btn btn-red">В корзину<i class="icon icon-cart"></i></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END content -->
+			</div>
+		</div>
+	</div>
+	<!-- END main -->
+	<!-- BEGIN footer -->
+	<footer class="footer">
+		<div class="footer-call">
+			<div class="container">
+				<div class="call row">
+					<span class="call-txt">Остались вопросы? Закажите обратный звонок.</span>
+					<form action="" class="call-form">
+						<input class="call-input" type="text" placeholder="Номер телефона" required>
+						<input class="btn-red" type="submit" value="Заказать звонок">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer-main">
+			<div class="container">
+				<div class="row-sm">
+					<div class="contacts">
+						<span class="footer-title">Контакты</span>
+						<div class="contacts-item">
+							+7 (495) 407-76-57
+							<span class="contacts-title">Телефон</span>
+						</div>
+						<div class="contacts-item">
+							info@rustires.ru
+							<span class="contacts-title">Электронная почта</span>
+						</div>
+					</div>
+					<div class="company">
+						<span class="footer-title">Компания</span>
+						<ul class="footer-list">
+							<li><a href="#">Автомобильные шины</a></li>
+							<li><a href="#">Автомобильные диски</a></li>
+							<li><a href="#">Наши магазины</a></li>
+							<li><a href="#">Бюджетные шины</a></li>
+						</ul>
+					</div>
+					<div class="support">
+						<span class="footer-title">Служба поддержки</span>
+						<ul class="footer-list">
+							<li><a href="#">Рекомендации и советы</a></li>
+							<li><a href="#">Перезвоните мне</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">О нас</a></li>
+						</ul>
+					</div>
+					<div class="site-map">
+						<span class="footer-title">Карта сайта</span>
+						<ul class="footer-list">
+							<li><a href="#">Подбор шин по автомобилю</a></li>
+							<li><a href="#">Подбор дисков по автомобилю</a></li>
+							<li><a href="#">Подбор шин по размеру</a></li>
+							<li><a href="#">Подбор дисков по размеру</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="footer-social">
+						<a href="#"><i class="icon icon-facebook"></i></a>
+						<a href="#"><i class="icon icon-vk"></i></a>
+						<a href="#"><i class="icon icon-ok"></i></a>
+						<a href="#"><i class="icon icon-instagram"></i></a>
+						<a href="#"><i class="icon icon-telegram"></i></a>
+					</div>
+					<div class="footer-copy">
+						&copy; Интернет-магазин шин и дисков RusTires, 2018
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="btnFilter" class="btn-filter icon icon-filter"></div>
+	<div class="btns-mobile">
+		<div id="toTop" class="icon icon-top"></div>
+		<div class="icon icon-phone"></div>
+	</div>
+	<!-- END footer -->
+	<!-- Nouislider scripts - подключаются только на страницах с фильтром в сайдбаре -->
+	<script src="js/nouislider.min.js"></script>
+	<script>
+	var sliderPrice = document.getElementById('price-slider');
+	var priceFrom = document.getElementById('price-from');
+	var priceTo = document.getElementById('price-to');
+	noUiSlider.create(sliderPrice, {
+		start: [5, 50],
+		connect: true,
+		range: {
+			'min': 0,
+			'max': 100
+		}
+	});
+
+	sliderPrice.noUiSlider.on('update', function(values, handle) {
+
+		var value = values[handle];
+
+		if (handle) {
+			priceTo.value = Math.round(value);
+		} else {
+			priceFrom.value = Math.round(value);
+		}
+	});
+	priceFrom.addEventListener('change', function() {
+		sliderPrice.noUiSlider.set([this.value, null]);
+	});
+	priceTo.addEventListener('change', function() {
+		sliderPrice.noUiSlider.set([null, this.value]);
+	});
+	</script>
+	<!-- END Nouislider scripts -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>
